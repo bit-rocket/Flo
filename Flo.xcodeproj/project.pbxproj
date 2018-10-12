@@ -13,6 +13,7 @@
 		FA7AB21C216FAFBD00AC59EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7AB21B216FAFBD00AC59EB /* Assets.xcassets */; };
 		FA7AB21F216FAFBD00AC59EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7AB21D216FAFBD00AC59EB /* LaunchScreen.storyboard */; };
 		FA7AB227216FB02100AC59EB /* PushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7AB226216FB02100AC59EB /* PushButton.swift */; };
+		FA7AB2292170D9F100AC59EB /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7AB2282170D9F100AC59EB /* CounterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FA7AB21E216FAFBD00AC59EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA7AB220216FAFBD00AC59EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA7AB226216FB02100AC59EB /* PushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushButton.swift; sourceTree = "<group>"; };
+		FA7AB2282170D9F100AC59EB /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,6 @@
 		FA7AB208216FAFB400AC59EB = {
 			isa = PBXGroup;
 			children = (
-				FA7AB226216FB02100AC59EB /* PushButton.swift */,
 				FA7AB213216FAFB400AC59EB /* Flo */,
 				FA7AB212216FAFB400AC59EB /* Products */,
 			);
@@ -57,6 +58,8 @@
 		FA7AB213216FAFB400AC59EB /* Flo */ = {
 			isa = PBXGroup;
 			children = (
+				FA7AB226216FB02100AC59EB /* PushButton.swift */,
+				FA7AB2282170D9F100AC59EB /* CounterView.swift */,
 				FA7AB214216FAFB400AC59EB /* AppDelegate.swift */,
 				FA7AB216216FAFB400AC59EB /* ViewController.swift */,
 				FA7AB218216FAFB400AC59EB /* Main.storyboard */,
@@ -141,6 +144,7 @@
 				FA7AB217216FAFB400AC59EB /* ViewController.swift in Sources */,
 				FA7AB215216FAFB400AC59EB /* AppDelegate.swift in Sources */,
 				FA7AB227216FB02100AC59EB /* PushButton.swift in Sources */,
+				FA7AB2292170D9F100AC59EB /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
