@@ -10,7 +10,7 @@ import UIKit
 
 @IBDesignable class CounterView: UIView {
 
-    private struct Constants {
+    struct Constants {
         static let numberOfGlasses = 8
         static let lineWidth: CGFloat = 5.0
         static let arcWidth: CGFloat = 76
@@ -20,7 +20,11 @@ import UIKit
         }
     }
     
-    @IBInspectable var counter: Int = 5
+    @IBInspectable var counter: Int = 5 {
+        didSet {
+             setNeedsDisplay()
+        }
+    }
     @IBInspectable var outlineColor: UIColor = UIColor.blue
     @IBInspectable var counterColor: UIColor = UIColor.orange
     
